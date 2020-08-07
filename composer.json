@@ -1,0 +1,19 @@
+{
+    "name": "xiang531039015/hell-world",
+    "description": "composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangtianxiang",
+            "email": "xiang531039015@163.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit" : "7.*"
+    }
+    ,"autoload": {
+        "psr-4": {
+            "xiang531039015\\": "src"
+        }
+    }
+}
